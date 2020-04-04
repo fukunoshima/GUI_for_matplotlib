@@ -17,7 +17,7 @@ from matplotlib.backends.backend_qt5agg \
 import matplotlib.pyplot as plt 
 
 cd =  os.path.abspath(os.path.dirname(__file__))
-#cd = "/home/hajime/graph_plot/"
+
 
 os.chdir(cd)
 os.getcwd()
