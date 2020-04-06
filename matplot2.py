@@ -273,7 +273,7 @@ class MyWidget(QWidget):
 
 
     def Save_files(self):
-        foldername = QFileDialog.getExistingDirectory(self, 'Open Directory', os.path.expanduser('~') + '/Desktop')
+        foldername = QFileDialog.getExistingDirectory(self, 'Open Directory', os.path.expanduser('~'))
         #print foldername
         filename = self.saveEdit.text()
         #print filename
@@ -284,7 +284,7 @@ class MyWidget(QWidget):
         self.log += ['plt.savefig(\''+str(save)+'\')']
         self.log += ['plt.close()']
         log = self.log
-        dir_name = os.path.expanduser('~/MAT_PLOT') + '/Log/'
+        dir_name = currentdir + '/Log/'
         split_file = filename.split('.')
         save_name = dir_name
         for n in range(len(split_file)-1):
