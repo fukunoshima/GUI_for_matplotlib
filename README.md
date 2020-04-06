@@ -7,7 +7,7 @@ MATPLOTはGUIを用いて簡単に２次元グラフをかけるコードです�
 
 
 # Download
-**MAT_PLOT** フォルダーを`git clone https://github.com/fukunoshima/GUI_for_matplotlib`でダウンロードしてください。
+フォルダーを`git clone https://github.com/fukunoshima/GUI_for_matplotlib`でダウンロードしてください。
 
 
 
@@ -24,7 +24,7 @@ python3 において
 # 使い方
 
 ## 起動
-- `cd ./MAT_PLOT`
+- `cd ./GUI_for_matplotlib`
 - `python3 matplot2.py`
 
 ## 作図 & 保存
@@ -33,7 +33,7 @@ python3 において
 - 各オプションを選択
 - **Plot!** を押すと図が描かれる
 - **save filenames** に保存したいファイル名を選択(defaultはplot.pdf, png等でも保存可能)
-- **Save** ボタンを押すと図が保存されるとともに、`./MAT_PLOT/Log/` 内部に同じ図を再生するpythonコードが生成される(plot.pdfで保存した場合はplot-日付.py)。
+- **Save** ボタンを押すと図が保存されるとともに、`./GUI_for_matplotlib/Log/` 内部に同じ図を再生するpythonコードが生成される(plot.pdfで保存した場合はplot-日付.py)。
 
 ## 各種オプション
 - lw: 線幅
@@ -46,7 +46,7 @@ python3 において
 - Legend on: legendの配置および文字サイズを指定
 
 ## 過去の履歴を再現
-- **log**ボタンを押すと`./MAT_PLOT/Log/`内部のpython ファイルを選択できる。
+- **log**ボタンを押すと`./GUI_for_matplotlib/Log/`内部のpython ファイルを選択できる。
 - **Plot!** を押すと過去の図が再現される(ただし現バージョンではこれ以上の編集ができない)
 
 ## オススメの使い方
